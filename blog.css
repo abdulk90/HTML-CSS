@@ -1,0 +1,17 @@
+p {
+	background-color: lightblue
+}
+
+body {
+	background-color: white;
+	font-family: "Baskerville";
+}
+
+.niceParagraph, span {
+		background-color: gray;
+		font-family:"Baskerville";
+}
+
+footer p {
+	background-color: #000000;
+}
