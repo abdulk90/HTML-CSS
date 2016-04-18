@@ -1,0 +1,35 @@
+@media only screen and ( min-width: 500px ) {
+    body:after {
+    content:"BLAH"
+    }
+}
+@media only screen and ( max-width: 800px ) {
+    body:after {
+    content:"WHAT"
+    }
+}
+
+.column {
+	width: 100px;
+	length: 50px;
+}
+
+.container {
+	width: 200px;
+	margin: 0 auto;
+	background: skyblue
+}
+
+.row {
+	margin-left: -20px;
+}
+
+[class*="span"] {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+
+.span-one-third {
+	width: 30%;
+}
